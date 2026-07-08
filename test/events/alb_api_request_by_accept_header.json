@@ -1,0 +1,18 @@
+{
+  "requestContext": {
+    "elb": {
+      "targetGroupArn": "arn:aws:elasticloadbalancing:ap-northeast-1:123456789012:targetgroup/sample/abcdef1234567890"
+    }
+  },
+  "httpMethod": "GET",
+  "path": "/health",
+  "queryStringParameters": {},
+  "headers": {
+    "host": "www.example.com",
+    "accept": "application/json",
+    "x-correlation-id": "api-request-by-accept"
+  },
+  "multiValueHeaders": {},
+  "body": "",
+  "isBase64Encoded": false
+}
